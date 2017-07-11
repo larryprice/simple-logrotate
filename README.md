@@ -3,7 +3,7 @@ simple-logrotate
 
 Rotate and compress log files or directories for your node application on app start.
 
-Copyright (C) 2017 Larry Price <larry.price.dev@gmail.com>. See [LICENSE](LICENSE) for more details.
+Copyright (C) 2017 Larry Price <<larry.price.dev@gmail.com>>. See [LICENSE](LICENSE) for more details.
 
 ### Usage ###
 
