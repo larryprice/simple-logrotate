@@ -1,0 +1,28 @@
+{
+  "name": "simple-logrotate",
+  "version": "0.1.0",
+  "description": "Rotate and compress log files or directories for your node application on app start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larryprice/simple-logrotate.git"
+  },
+  "keywords": [
+    "log",
+    "rotate",
+    "file"
+  ],
+  "author": "Larry Price <larry.price.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larryprice/simple-logrotate/issues"
+  },
+  "homepage": "https://github.com/larryprice/simple-logrotate#readme",
+  "dependencies": {
+    "archiver": "^2.0.0",
+    "fs-extra": "^3.0.1"
+  }
+}
