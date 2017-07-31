@@ -8,7 +8,7 @@ var rotate = function(logname, backups) {
     }
   }
 
-  fs.pathExists(logname).then((exists) => {
+  return fs.pathExists(logname).then((exists) => {
     if (exists) {
       return fs.remove(logname);
     }
