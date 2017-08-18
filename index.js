@@ -3,7 +3,7 @@ const archiver = require('archiver');
 
 var rotate = function(logname, backups) {
   for (var i = backups; i > 0; --i) {
-    if (fs.pathExists(`${logname}.${i-1}.tar.gz`)) {
+    if (fs.pathExistsSync(`${logname}.${i-1}.tar.gz`)) {
       fs.moveSync(`${logname}.${i-1}.tar.gz`, `${logname}.${i}.tar.gz`, {overwrite: true});
     }
   }
