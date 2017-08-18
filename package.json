@@ -1,6 +1,6 @@
 {
   "name": "simple-logrotate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rotate and compress log files or directories for your node application on app start",
   "main": "index.js",
   "scripts": {
